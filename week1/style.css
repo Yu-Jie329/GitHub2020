@@ -1,0 +1,170 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { 
+/* 若要將多樣標籤一起調整，可用「,」 */
+	margin: 0;  
+	padding: 0;
+	border: 0;
+	font-size: 100%;  
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* *{ outline: 1px solid #000 }   */
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header h2{
+	padding-top: 40px;
+	padding-bottom: 24px;
+	font-size: 80px;
+	border-bottom: 2px solid #000000;
+	font-family: Charcoal;
+}
+.header img{
+	padding: 48px 0px;
+}
+.wrap h3{
+	font-size: 32px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+.content h3{
+	border-bottom: 1px solid #000000;
+}
+.content span{
+	color: #A00404;
+	font-size: 24px;
+	padding-left: 16px;
+	/* vertical-align: middle; */
+}
+.content p{
+	font-size: 24px;
+	line-height:1.5; 
+}
+.p1{
+	padding-top: 16px;
+	padding-bottom: 24px;
+}
+.p2{
+	padding-bottom: 72px;
+}
+.content2{
+	background: #415165;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 72px;
+	color: #FFFFFF;
+}
+.h301{
+	padding-top: 24px;
+	width: 996px;
+	margin: 0px 102px;
+	border-bottom: 1px solid #FFFFFF;
+	text-align: center;
+}
+.sp01{
+	font-size: 24px;
+	padding-left: 16px;
+	/* vertical-align: middle;  */
+}
+.content2 ul{
+	padding-top: 40px;
+	padding-bottom: 32px;
+} 
+.content2 li{
+	border-left: 1px solid #FFFFFF;
+	padding-left: 24px;
+	font-size: 24px;
+}
+.l1{
+	padding-bottom: 20px;
+}
+.content ul{
+	margin-left: 24px;
+	padding: 16px 0px 76px 0px;
+	
+}
+.content li{
+	font-size: 24px;
+	font-weight: bold;
+	border-left: 1px solid #96A9C4;
+	padding-left: 24px;
+}
+.l2{
+	padding-bottom: 32px;
+}
+.p3{
+	font-weight: lighter;
+	font-size: 20px;
+}
+.footer{
+	width: 1920px;
+	margin: 0 auto;
+	background: #415165;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 24px 0px 48px 0px;
+}
+.h302{
+	font-size: 32px;
+	width: 1200px;
+	margin: 0px 360px 32px 360px;
+	border-bottom: 1px solid #FFFFFF;
+	padding-bottom: 8px;
+}
+.sp02{
+	font-size: 24px;
+	padding-left: 16px;
+}
+.footer p{
+	font-size: 24px;
+	padding-bottom: 16px;
+}
+.footer a{
+	padding-top: 4px;
+}
