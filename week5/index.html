@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW05</title>
+    <link rel="stylesheet" href="/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src=""></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 d-flex flex-column justify-content-between bg-info">
+                <div class="pl-8 h-100 ">
+                    <h1 class="py-8"><a href="#" class="logo d-block"
+                            style="background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/13f2e6e6b718b6abafb62ce7a672d42fc39eaeae/week5/logo-ANSWER.svg);"></a>
+                    </h1>
+                    <ul>
+                        <li class="pb-7">
+                            <a class="text-decoration-none" href="#"><span class="material-icons align-middle pr-4"
+                                    style="font-size: 24px;">assessment</span>Dashboard</a>
+                        </li>
+                        <li class="pb-7">
+                            <a class="text-decoration-none" href="#"><span class="material-icons align-middle pr-4"
+                                    style="font-size: 24px;">question_answer</span>Question</a>
+                        </li>
+                        <li class="pb-7">
+                            <a class="text-decoration-none text-secondary" href="#"><span
+                                    class="material-icons align-middle pr-4"
+                                    style="font-size: 24px;color: #2A8356;">assignment</span>Assignment</a>
+                        </li>
+                        <li class="pb-7">
+                            <a class="text-decoration-none" href="#"><span class="material-icons align-middle pr-4"
+                                    style="font-size: 24px;">video_library</span>Course</a>
+                        </li>
+                        <li class="pb-7">
+                            <a class="text-decoration-none" href="#"><span class="material-icons align-middle pr-4"
+                                    style="font-size: 24px;">people</span>Admin</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none" href="#"><span class="material-icons align-middle pr-4"
+                                    style="font-size: 24px;">settings</span>Settings</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="crate-deck pl-8">
+                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+                        class="crate-img">
+                    <div>
+                        <p class="crate-title">Andy Chen</p>
+                        <p class="crate-text-lg">andy0401@mail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="row py-8 align-items-center">
+                    <div class="col-3">
+                        <h2 class="">Assignment</h2>
+                    </div>
+                    <div class="col-3 d-flex mr-auto align-items-center">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                All Courses
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-2 text-right">
+                        <a class="mr-6" href="#"><span class="material-icons">search</span></a>
+                        <a href="#"><span class="material-icons">notifications_active</span></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <div class="dropdown">
+                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                All
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Chapter
+                                    Assignment 2</a>
+                                <a class="dropdown-item" href="#">Chapter
+                                    Assignment 1</a>
+                                <a class="dropdown-item" href="#">Final
+                                    Assignment</a>
+                                <a class="dropdown-item" href="#">Final
+                                    Assignment</a>
+                            </div>
+                        </div>
+                        <p class="mention-text text-right">2 comments</p>
+                    </div>
+                </div>
+                <div class="row m-0">
+                    <div class="col-5 list-group">
+                        <a class="p-3 list-group-item list-group-item-action list-group-item-info bg-info" href="#">
+                            <p class="crate-text-sm d-flex justify-content-between align-items-center">Chapter
+                                Assignment 2<span class="crate-text-sm">4 hrs
+                                    ago</span></p>
+                            <p class="crate-title d-flex justify-content-between align-items-center">Please
+                                check
+                                this file…<span class="crate-text-sm">Emily
+                                    Wang</span></p>
+                        </a>
+                        <a class="p-3 list-group-item list-group-item-action list-group-item-info" href="#">
+                            <p class="crate-text-sm d-flex justify-content-between align-items-center">Chapter
+                                Assignment 1<span class="crate-text-sm">12 hrs ago</span></p>
+                            <p class="crate-title d-flex justify-content-between align-items-center">My
+                                Homework<span class="crate-text-sm">David Xu</span></p>
+                        </a>
+                        <a class="p-3 list-group-item list-group-item-action list-group-item-info" href="#">
+                            <p class="crate-text-sm d-flex justify-content-between align-items-center">Final
+                                Assignment<span class="crate-text-sm">Final Assignment</span></p>
+                            <p class="crate-title d-flex justify-content-between align-items-center">Have a
+                                problem
+                                with this…<span class="crate-text-sm">Tony Wei</span></p>
+                        </a>
+                        <a class="p-3 list-group-item list-group-item-action list-group-item-info" href="#">
+                            <p class="crate-text-sm d-flex justify-content-between align-items-center">Final
+                                Assignment<span class="crate-text-sm">19 hrs ago</span></p>
+                            <p class="crate-title d-flex justify-content-between align-items-center">Did I do it
+                                right?<span class="crate-text-sm">Christina Lin</span></p>
+                        </a>
+                    </div>
+                    <div class="col-7 p-0">
+                        <div class="border border-success">
+                            <div class="d-flex justify-content-between align-items-center bg-info px-4 py-3">
+                                <ul>
+                                    <li class="crate-text-sm">Chapter Assignment 2 / HTML&CSS</li>
+                                    <li class="crate-title">Please check this file for me, thanks!</li>
+                                </ul>
+                                <a href="#"><span class="material-icons">more_vert</span></a>
+                            </div>
+                            <div class="crate-deck p-4">
+                                <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true"
+                                    class="crate-img">
+                                <div>
+                                    <p class="crate-title">Emily Wang</p>
+                                    <p class="crate-text-sm">10:38 AM (4 hours ago)</p>
+                                </div>
+                            </div>
+                            <div class="ml-14 mr-8 pb-4 border-bottom">
+                                <p class="pb-4">Hi Teacher, the attached file is my homework of chapter 2. And here
+                                    comes a
+                                    question: Why in the following code the height of the <span
+                                        class="text-secondary bg-info">div</span> is bigger
+                                    than the height of the <span class="text-secondary bg-info">img</span> ? There
+                                    is a gap below the image, but it
+                                    doesn’t seems to be a padding/margin. What is the gap or extra space below
+                                    image?</p>
+                                <a class="badge-info px-4 py-3 text-decoration-none border border-success font-weight-bold"
+                                    href="#" download><span
+                                        class="material-icons align-middle">attach_file</span>HW-2-David.zip</a>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="crate-deck p-4">
+                                    <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true"
+                                        class="crate-img">
+                                    <div>
+                                        <p class="crate-title">Emily Wang</p>
+                                        <p class="crate-text-sm">10:38 AM (4 hours ago)</p>
+                                    </div>
+                                </div>
+                                <ul class="d-flex justify-content-between align-items-center pr-8">
+                                    <li>
+                                        <a href="#"><span class="material-icons">star_border</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="ml-6" href="#"><span class="material-icons">edit</span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pl-14 pr-8">
+                                <p>Hi David, by default, an image is rendered inline, like a letter so it sits on
+                                    the same line that a, b, c and d sit on. There is space below that line for the
+                                    descenders you find on letters like g, j, p and q.
+                                    <br>
+                                    <br>
+                                    You can:
+                                    <br>
+                                </p>
+                                <ul>
+                                    <li>• adjust the <span class="text-secondary bg-info">vertical-align</span> of
+                                        the image to position
+                                        it elsewhere (e.g. the
+                                        <span class="text-secondary bg-info">middle</span> )</li>
+                                    <li>• change the <span class="text-secondary bg-info">display</span> so it isn’t
+                                        inline.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between mt-8">
+                            <ul class="d-flex">
+                                <li><a class="mr-6" href="#"><span class="material-icons">keyboard_arrow_left</span></a>
+                                </li>
+                                <li><a href="#"><span class="material-icons">keyboard_arrow_right</span></a></li>
+                            </ul>
+                            <ul class="d-flex">
+                                <li><a class="py-2 px-8 border border-secondary text-decoration-none" href="#">Mark as
+                                        read</a></li>
+                                <li><a class="py-2 px-8 ml-4 bg-secondary text-light text-decoration-none"
+                                        href="#">Reply</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

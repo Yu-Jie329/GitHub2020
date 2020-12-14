@@ -1,0 +1,11 @@
+.logo {
+  @include hide-text;
+  width: 150px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.mention-text {
+  color: text-third;
+  font-size: $font-size-1;
+  opacity: 1;
+}
