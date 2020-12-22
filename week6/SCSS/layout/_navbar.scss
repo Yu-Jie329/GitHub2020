@@ -1,0 +1,66 @@
+.logo {
+  display: block;
+  @include hide-text;
+  width: 128px;
+  height: 38px;
+}
+.navmenu {
+  display: flex;
+  @include mobile {
+    display: block;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 2.3s;
+    margin-top: 1px;
+    position: absolute;
+    z-index: 100;
+    top: 68px;
+    left: 0;
+    right: 0;
+    background: $info;
+  }
+  li {
+    padding-left: $p-8;
+    @include mobile {
+      border-bottom: 1px solid $light;
+      padding: 0;
+    }
+  }
+  li a {
+    display: block;
+    padding: $p-4 0 $p-4 0;
+    text-decoration: none;
+    color: $success;
+    @include mobile {
+      transition: all 0.8s;
+      color: $light;
+      text-align: center;
+      padding: $p-4;
+    }
+    &:hover {
+      color: $primary;
+      @include mobile {
+        background: $success;
+        color: $secondary;
+      }
+    }
+    span {
+      vertical-align: text-top;
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+}
+.cart,
+.showmenu {
+  display: none;
+  @include mobile {
+    display: block;
+  }
+}
+.menu-show .navmenu {
+  @include mobile {
+    max-height: 280px;
+  }
+}
