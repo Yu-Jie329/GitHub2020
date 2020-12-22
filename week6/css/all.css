@@ -60,6 +60,7 @@ li {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 img {
@@ -147,7 +148,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -428,7 +429,7 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -14721,7 +14722,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .navmenu li a {
-  display: block;
   padding: 16px 0 16px 0;
   text-decoration: none;
   color: #8d8d8d;
@@ -14811,5 +14811,11 @@ a.text-dark:hover, a.text-dark:focus {
   right: 0;
   top: 0;
   bottom: 0;
+}
+
+.subscribe {
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
 }
 /*# sourceMappingURL=all.css.map */

@@ -1,17 +1,22 @@
 .img-size-m {
-    height: 540px;
-    object-fit:cover;
-    @include mobile {
-        height: auto;  
-    }
+  height: 540px;
+  object-fit: cover;
+  @include mobile {
+    height: auto;
+  }
 }
 .darker {
-    filter:contrast(0.5);
+  filter: contrast(0.5);
 }
 .sold {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.subscribe {
+  height: 600px;
+  background-size: cover;
+  background-position: center center;
 }
