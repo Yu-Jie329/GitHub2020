@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <div class="container">
+    <nav class="container">
         <div class="row">
-            <nav class="col-12 navbar">
-                <h1><a class="logo" href="#"
+            <div class="col-12 navbar">
+                <h1><a class="logo" href="index.html"
                         style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume.png?raw=true);">D'Perfume
                         香水電商網站</a>
                 </h1>
-                <ul class="navmenu mb-0">
+                <ul class="navmenu">
                     <li>
-                        <a href="#"><span class="material-icons">store</span>Product</a>
+                        <a href="product.html"><span class="material-icons">store</span>Product</a>
                     </li>
                     <li>
                         <a href="#"><span class="material-icons">person</span>log in</a>
@@ -43,9 +43,9 @@
                         <a href="#" class="showmenu text-info ml-5"><span class="material-icons">menu</span></a>
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
-    </div>
+    </nav>
     <header class="banner mb-md-15 mb-10"
         style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true);">
         <div class="container h-100 d-flex flex-column justify-content-center">
@@ -188,7 +188,7 @@
                     src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index9.jpg?raw=true">
             </div>
             <div class="col-md-4">
-                <h3 class="mb-0">Bottle-Recycling</h3>
+                <h3>Bottle-Recycling</h3>
                 <p class="h5 mb-md-4 mb-2 font-weight-light">Recycle your used empty bottles and be rewarded!</p>
                 <p class="h6 font-weight-light">
                     For the past 10 years, we have collected over 800,000 bottles through Empty Bottle Recycling
@@ -209,11 +209,11 @@
                     <form class="d-flex justify-content-start">
                         <div class="input-group rounded-left ">
                             <label for="mail"></label>
-                            <input class="pl-4 border border-primary" id="mail" type="mail"
+                            <input class="pl-4 border border-secondary" id="mail" type="mail"
                                 placeholder="Your email address">
                         </div>
                         <div class="input-group">
-                            <button class="btn btn-primary rounded-right" type="submit">Subscribe</button>
+                            <button class="btn btn-secondary rounded-right" type="submit">Subscribe</button>
                         </div>
                     </form>
                 </div>
@@ -221,13 +221,13 @@
         </div>
 
     </section>
-    <footer class="bg-primary">
+    <footer class="bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col d-flex justify-content-between">
-                    <div class="d-flex justify-content-md-center justify-content-between align-items-center mb-0">
+                    <div class="d-flex justify-content-md-center justify-content-between align-items-center">
                         <li>
-                            <h2><a href="#" class="logo"
+                            <h2><a href="index.html" class="logo"
                                     style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfumewhite.png?raw=true)">D'Perfume</a>
                             </h2>
 
@@ -237,15 +237,14 @@
                         </li>
                     </div>
                     <ul class="footer-bar d-md-flex d-none justify-content-center align-items-center">
-                        <li><a class="mr-9" href="#">Product</a></li>
-                        <li><a class="mr-9" href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a class="mr-9 py-7 btn-style-sm text-decoration-none" href="product.html">Product</a></li>
+                        <li><a class="mr-9 py-7 btn-style-sm text-decoration-none" href="#">Blog</a></li>
+                        <li><a class="py-7 btn-style-sm text-decoration-none" href="#">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
