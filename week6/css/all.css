@@ -15443,6 +15443,16 @@ a.text-dark:hover, a.text-dark:focus {
   background-position: center center;
 }
 
+.product-img {
+  height: 255px;
+}
+
+@media (max-width: 768px) {
+  .product-img {
+    height: 165px;
+  }
+}
+
 .copyright {
   font-size: 14px;
   line-height: 21px;

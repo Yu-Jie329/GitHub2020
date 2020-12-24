@@ -20,3 +20,9 @@
   background-size: cover;
   background-position: center center;
 }
+.product-img {
+  height: 255px;
+  @include mobile {
+    height: 165px;
+  }
+}
