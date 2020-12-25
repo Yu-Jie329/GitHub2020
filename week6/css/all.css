@@ -15393,18 +15393,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.cart,
-.showmenu {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .cart,
-  .showmenu {
-    display: block;
-  }
-}
-
 @media (max-width: 768px) {
   .menu-show .navmenu {
     max-height: 280px;
@@ -15452,16 +15440,6 @@ a.text-dark:hover, a.text-dark:focus {
   height: 600px;
   background-size: cover;
   background-position: center center;
-}
-
-.product-img {
-  height: 255px;
-}
-
-@media (max-width: 768px) {
-  .product-img {
-    height: 165px;
-  }
 }
 
 .copyright {
