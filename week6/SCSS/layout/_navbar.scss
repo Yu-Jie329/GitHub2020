@@ -51,13 +51,6 @@
     }
   }
 }
-.cart,
-.showmenu {
-  display: none;
-  @include mobile {
-    display: block;
-  }
-}
 .menu-show .navmenu {
   @include mobile {
     max-height: 280px;
