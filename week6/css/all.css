@@ -68,6 +68,10 @@ img {
   max-width: 100%;
 }
 
+span {
+  vertical-align: text-top;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -15683,10 +15687,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.navmenu li a span {
-  vertical-align: text-top;
-}
-
 @media (max-width: 768px) {
   .navmenu li a span {
     display: none;
@@ -15740,6 +15740,13 @@ a.text-dark:hover, a.text-dark:focus {
   height: 600px;
   background-size: cover;
   background-position: center center;
+}
+
+@media (min-width: 768px) {
+  .description {
+    position: absolute;
+    right: 0;
+  }
 }
 
 .copyright {
