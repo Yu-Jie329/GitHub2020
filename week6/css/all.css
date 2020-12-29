@@ -2299,7 +2299,7 @@ pre code {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #818a91;
   background-color: #fff;
   background-clip: padding-box;
   border: 2px solid #ced4da;
@@ -2324,11 +2324,11 @@ pre code {
 
 .form-control:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #495057;
+  text-shadow: 0 0 0 #818a91;
 }
 
 .form-control:focus {
-  color: #495057;
+  color: #818a91;
   background-color: #fff;
   border-color: #d6c39b;
   outline: 0;
@@ -2371,7 +2371,7 @@ input[type="month"].form-control {
 }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
+  color: #818a91;
   background-color: #fff;
 }
 
@@ -4120,7 +4120,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #818a91;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
@@ -4262,7 +4262,7 @@ input[type="button"].btn-block {
   pointer-events: none;
   content: "";
   background-color: #fff;
-  border: #818A91 solid 2px;
+  border: #818a91 solid 2px;
 }
 
 .custom-control-label::after {
@@ -4329,7 +4329,7 @@ input[type="button"].btn-block {
   left: calc(-2.25rem + 4px);
   width: calc(1rem - 8px);
   height: calc(1rem - 8px);
-  background-color: #818A91;
+  background-color: #818a91;
   border-radius: 0.5rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -4362,7 +4362,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #818a91;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
   border: 2px solid #ced4da;
@@ -4380,7 +4380,7 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus::-ms-value {
-  color: #495057;
+  color: #818a91;
   background-color: #fff;
 }
 
@@ -4401,7 +4401,7 @@ input[type="button"].btn-block {
 
 .custom-select:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #495057;
+  text-shadow: 0 0 0 #818a91;
 }
 
 .custom-select-sm {
@@ -4466,7 +4466,7 @@ input[type="button"].btn-block {
   padding: 0.375rem 0.75rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
+  color: #818a91;
   background-color: #fff;
   border: 2px solid #ced4da;
   border-radius: 0.25rem;
@@ -4482,7 +4482,7 @@ input[type="button"].btn-block {
   height: calc(1.5em + 0.75rem);
   padding: 0.375rem 0.75rem;
   line-height: 1.5;
-  color: #495057;
+  color: #818a91;
   content: "Browse";
   background-color: #e9ecef;
   border-left: inherit;
@@ -4640,7 +4640,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-webkit-slider-thumb {
-  background-color: #818A91;
+  background-color: #818a91;
 }
 
 .custom-range:disabled::-webkit-slider-runnable-track {
@@ -4648,7 +4648,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-moz-range-thumb {
-  background-color: #818A91;
+  background-color: #818a91;
 }
 
 .custom-range:disabled::-moz-range-track {
@@ -4656,7 +4656,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range:disabled::-ms-thumb {
-  background-color: #818A91;
+  background-color: #818a91;
 }
 
 .custom-control-label::before,
@@ -15498,7 +15498,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   pre,
   blockquote {
-    border: 2px solid #818A91;
+    border: 2px solid #818a91;
     page-break-inside: avoid;
   }
   thead {
