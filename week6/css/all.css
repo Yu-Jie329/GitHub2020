@@ -15753,6 +15753,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+@media (max-width: 768px) {
+  .w-md-100 {
+    width: 100%;
+  }
+}
+
 .copyright {
   font-size: 14px;
   line-height: 21px;
