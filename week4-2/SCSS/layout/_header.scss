@@ -1,0 +1,47 @@
+.banner {
+    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    @include mobile {
+        background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true);
+    }
+}
+.banner-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 840px;
+    @include mobile {
+        height: 394px;
+    }
+    p {
+        font-size: 36px;
+        line-height: 54px;
+        color: #650300;
+        font-family: Noto Sans;
+        @include pd {
+            font-size: 20px;
+            line-height: 30px;
+            font-family: 蘋方-繁;
+        }
+        @include mobile {
+            font-size: 16px;
+        }
+    }
+    h2 {
+        font-size: 64px;
+        line-height: 96px;
+        font-weight: bold;
+        color: #650300;
+        font-family: Noto Sans;
+        @include pd {
+            font-size: 48px;
+            line-height: 72px;
+        }
+        @include mobile {
+            font-size: 32px;
+        }
+    }
+}

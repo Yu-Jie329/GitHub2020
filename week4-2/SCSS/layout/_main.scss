@@ -1,360 +1,85 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-    line-height: 1;
-    font-family: 'Noto Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-img　{
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
-*,*:before,*:after{box-sizing:border-box;}
-*{
-	padding: 0;
-	margin: 0;
-}
-
-.text-center {
-    text-align: center;
-}
-.primary {
-    color: #FFFFFF;
-}
-.secondary {
-    color: #650300;    
-}
-.bg-primary {
-    background: #AA0601;
-}
-.bg-secondary {
-    background: #AA06010D;    
-}
-.d-inline {
-    display: inline;
-}
-.d-flex {
-    display: flex;
-}
-.d-none {
-    display: none;
-}
-.j-center {
-    justify-content: center;
-}
-.js-around {
-    justify-content: space-around;
-}
-.js-between {
-    justify-content: space-between;
-}
-.jf-start {
-    justify-content: flex-start;
-}
-.a-center {
-    align-items: center;
-}
-.pl-16 {
-    padding-left: 16px;
-}
-.pl-30 {
-    padding-left: 30px;
-}
-.pl-32 {
-    padding-left: 32px;
-}
-.pl-36 {
-    padding-left: 36px;
-}
-.pl-48 {
-    padding-left: 48px;
-}
-.pl-64 {
-    padding-left: 64px;
-}
-.pb-20 {
-    padding-bottom: 20px;
-}
-.pb-24 {
-    padding-bottom: 24px;
-}
-.pb-28 {
-    padding-bottom: 28px;
-}
-.pb-32 {
-    padding-bottom: 32px;
-}
-.pb-40 {
-    padding-bottom: 40px;
-}
-.pb-80 {
-    padding-bottom: 80px;
-}
-.pt-19 {
-    padding-top: 19px;
-}
-.pt-24 {
-    padding-top: 24px;
-}
-.pt-36 {
-    padding-top: 36px;
-}
-.pt-48  {
-    padding-top: 48px;
-}
-.ml-30 {
-    margin-left: 30px;
-}
-.mb-80 {
-    margin-bottom: 80px;
-}      
-.lh-24 {
-    line-height: 24px;
-}
-.h2-style {
-    text-align: center;
-    font-size: 48px;
-    line-height: 72px;
-    font-weight: bold;
-    padding-top: 64px;
-    padding-bottom: 60px;
-}
 .container {
     max-width: 1110px;
     margin: 0 auto;
-}
-@media (max-width: 992px) {
-    .container {
+    @include pd {
         max-width: 690px;
     }
-}
-@media (max-width: 767px) {
-    .container {
+    @include mobile {
         max-width: 345px;
-    }
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #AA0601;
-    padding: 30px 56px 30px 88px;
-}
-.logo {
-    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true);
-    text-indent: 101%;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 80px;
-    height: 50px;
-    background-repeat: no-repeat;
-    display: block;
-}
-.menu {
-    display: flex;
-}
-.menu a {
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 30px;
-    text-decoration: none;
-    font-family: Noto Sans;
-    display: block;
-    padding: 10px 32px;
-}
-.menu a:hover {
-    color: #fab1a0;
-}
-@media (max-width: 992px) {
-    .header {
-        padding: 30px 19px 30px 39px;
-    }
-    .menu a {
-        padding: 10px 20px;
-    } 
-}
-@media (max-width: 767px) {
-    .header {
-        flex-direction: column;
-        justify-content: center;
-        padding: 10px 0px 0px 0px;
-    }
-    .menu {
-        width: 100%;
-        flex-wrap: wrap;
-        text-align: center;
-        margin-top: 10q;
-    }
-    .menu li {
-        width: 50%;
-        padding-left: 0;
-        border: 1px solid #FFFFFF;
-    }
-    .menu a {
-        padding: 8px 50px;
-    } 
-}
-.banner {
-    background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.banner-inner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    height: 840px;
-}
-.banner-inner p {
-    font-size: 36px;
-    line-height: 54px;
-    color: #650300;
-    font-family: Noto Sans;
-}
-.banner-inner h2 {
-    font-size: 64px;
-    line-height: 96px;
-    font-weight: bold;
-    color: #650300;
-    font-family: Noto Sans;
-}
-@media (max-width: 992px) {
-    .banner-inner p {
-        font-size: 20px;
-        line-height: 30px;
-        font-family: 蘋方-繁;
-    }
-    .banner-inner h2 {
-        font-size: 48px;
-        line-height: 72px;
-    }
-}
-@media (max-width: 767px) {
-    .banner {
-        background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner-sm.png?raw=true);
-    }
-    .banner-inner {
-        height: 394px;
-    }
-    .banner-inner p {
-        font-size: 16px;
-    }
-    .banner-inner h2 {
-        font-size: 32px;
     }
 }
 .profession {
     background: #AA06010D;
     text-align: center;
-}
-.profession h2 {
-    text-align: center;
-    font-size: 48px;
-    line-height: 72px;
-    font-weight: bold;
-    padding-top: 64px;
-    padding-bottom: 60px;
-    color: #650300;
-    font-family: Noto Sans;
+    h2 {
+        text-align: center;
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: bold;
+        padding-top: 64px;
+        padding-bottom: 60px;
+        color: #650300;
+        font-family: Noto Sans;
+        @include pd {
+            font-size: 32px;
+            line-height: 48px;
+            padding-top: 40px;
+            padding-bottom: 32px;
+        }
+        @include mobile {
+            font-size: 24px;
+            padding-top: 24px;
+            padding-bottom: 20px;
+        }
+    }
 }
 .profession-inner {
     display: flex;
     justify-content: space-around;
     align-items:  baseline;
     padding-bottom: 80px;
-}
-.profession-inner h3 {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: bold;
-    color: #650300;
-    margin-top: 40px;
-    font-family: Noto Sans;
-}
-.profession-inner p {
-    font-size: 16px;
-    line-height: 24px;
-    text-align: left;
-    font-family: Noto Sans;
-}
-.profession-inner li {
-    width: 20%;
-}
-@media (max-width: 992px) {
-    .profession h2 {
-        font-size: 32px;
-        line-height: 48px;
-        padding-top: 40px;
-        padding-bottom: 32px;
-    }
-    .profession-inner {
+    @include pd {
         flex-wrap: wrap;
         padding-bottom: 40px;
     }
-    .profession-inner li {
-        width: 48%;
+    h3 {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: bold;
+        color: #650300;
+        margin-top: 40px;
+        font-family: Noto Sans;
+        @include pd {
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 16px;
+        }
     }
-    .profession-inner img {
-        width: 80px;
-        height: 80px;
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        font-family: Noto Sans;
+        @include pd {
+            width: 65%;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
     }
-    .profession-inner h3 {
-        font-size: 20px;
-        line-height: 30px;
-        margin-top: 16px;
+    li {
+        width: 20%;
+        @include pd {
+            width: 48%;
+        }
     }
-    .profession-inner p {
-        width: 65%;
-        margin: 0 auto;
-        padding-bottom: 40px;
+    img {
+        @include pd {
+            width: 80px;
+            height: 80px;
+        }
     }
+}
+@media (max-width: 992px) {
     .order-1 {
         order: -2;
     }
@@ -364,9 +89,7 @@ img　{
 }
 @media (max-width: 767px) {
     .profession h2 {
-        font-size: 24px;
-        padding-top: 24px;
-        padding-bottom: 20px;
+        
     }
     .profession-inner {
         flex-direction: column;
