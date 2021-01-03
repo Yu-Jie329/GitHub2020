@@ -1,0 +1,266 @@
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.column li {
+  width: 24%;
+  border: 1px solid #dcdcdc;
+}
+.column-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column-inner img {
+  width: 48px;
+  height: 48px;
+}
+.column-inner a {
+  text-decoration: none;
+  font-size: 42px;
+  line-height: 63px;
+  color: #000000;
+  padding: 24px 0px 24px 8px;
+  font-family: Roboto;
+}
+.column-inner a:hover {
+  color: #aa0601;
+}
+.box-show {
+  height: 16px;
+  background: #aa0601;
+}
+.box-hide {
+  height: 16px;
+}
+@media (max-width: 992px) {
+  .column li {
+    width: 33.33%;
+  }
+  .column-inner img {
+    width: 32px;
+    height: 32px;
+  }
+  .column-inner a {
+    font-size: 28px;
+    line-height: 42px;
+    padding: 16px 0px 16px 8px;
+  }
+  .box-show {
+    height: 8px;
+  }
+  .box-hide {
+    height: 8px;
+  }
+}
+@media (max-width: 767px) {
+  .column-inner img {
+    width: 15px;
+    height: 15px;
+  }
+  .column-inner a {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 8px 0px 8px 5px;
+  }
+  .box-show {
+    height: 4px;
+  }
+  .box-hide {
+    height: 4px;
+  }
+}
+.optical-banner {
+  display: flex;
+}
+.optical-banner img {
+  width: 49.2%;
+  height: auto;
+}
+.banner-2 {
+  margin-left: 1.6%;
+}
+@media (max-width: 992px) {
+  .optical-banner img {
+    width: 50%;
+  }
+  .banner-2 {
+    margin-left: 0px;
+  }
+}
+.CelluloidCombi {
+  margin-top: 88px;
+}
+.CelluloidCombi-inner h2 {
+  font-size: 42px;
+  line-height: 63px;
+  text-align: center;
+  font-family: Roboto;
+}
+.CelluloidCombi-inner p {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 36px;
+  text-align: center;
+  font-family: Noto Sans;
+}
+@media (max-width: 992px) {
+  .CelluloidCombi {
+    margin-top: 40px;
+  }
+  .CelluloidCombi-inner h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .CelluloidCombi-inner p {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 767px) {
+  .CelluloidCombi {
+    margin-top: 30px;
+  }
+  .CelluloidCombi-inner h2 {
+    font-size: 20px;
+  }
+  .CelluloidCombi-inner p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
+.optical-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.optical-menu li {
+  margin-top: 4px;
+  margin-bottom: 100px;
+}
+.optical-menu img {
+  /* width: 23%;
+      height: auto; */
+  width: 255px;
+  height: 164px;
+}
+.optical-menu h3 {
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: Roboto;
+}
+.optical-menu span {
+  font-size: 24px;
+  line-height: 36px;
+  color: #aa0601;
+  font-family: Roboto;
+}
+.item {
+  display: flex;
+}
+.box1 {
+  width: 24px;
+  height: 24px;
+  background: #5f3e2d;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.box2 {
+  width: 24px;
+  height: 24px;
+  background: #b75929;
+  border-radius: 4px;
+}
+@media (max-width: 992px) {
+  .optical-menu li {
+    margin-top: 0;
+    margin-bottom: 72px;
+  }
+  .optical-menu img {
+    width: 330px;
+    height: 164px;
+  }
+  .optical-menu h3 {
+    line-height: 30px;
+  }
+  .optical-menu span {
+    line-height: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .optical-menu li {
+    margin-bottom: 32px;
+  }
+  .optical-menu img {
+    width: 345px;
+    height: 166px;
+  }
+  .optical-menu h3 {
+    font-size: 16px;
+  }
+  .optical-menu span {
+    font-size: 16px;
+  }
+  .box1 {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+  .box2 {
+    width: 16px;
+    height: 16px;
+  }
+}
+.optical-tab {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 156px;
+}
+.optical-tab li {
+  border: 1px solid #555555;
+}
+.optical-tab a {
+  display: block;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 29px;
+  color: #555555;
+  padding: 10px 12px 12px 12px;
+  font-family: Noto Sans;
+}
+.next {
+  background: #f2f2f2;
+}
+.number {
+  background: #000000;
+}
+.number a {
+  color: #ffffff;
+}
+.optical-tab a:hover {
+  background: #000;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  .optical-tab {
+    margin-bottom: 104px;
+  }
+  .optical-tab a {
+    padding: 10px 16px 14px 16px;
+  }
+}
+@media (max-width: 767px) {
+  .optical-tab {
+    margin-bottom: 56px;
+  }
+  .optical-tab a {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 10px 8px 10px;
+  }
+}
